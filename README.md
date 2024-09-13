@@ -21,7 +21,7 @@
 <br />
 <br />
 
-I'm a database developer with 4+ years of hands-on experience designing, developing and implementing applications and solutions using a range of technologies and programming languages.
+I'm a Cloud and database developer with 8+ years of hands-on experience designing, developing and implementing applications and solutions using a range of technologies and programming languages.
 <br />
 <br />
 
@@ -29,10 +29,10 @@ I'm a database developer with 4+ years of hands-on experience designing, develop
 
 
 
-- 🔭 I’m currently working as Database consultant freelance web developer. 
-- 🌱 I’m currently learning django and flask rest framework. 
-- 👯 I’m looking to collaborate on this.
-- 🤔 I’m looking for help with multiple projects.
+- 🔭 I’m currently working as Cloud and Database consultant freelance web developer. 
+- 🌱 I’m currently learning MongoDb and flask rest framework. 
+- 👯 I’m looking to collaborate on Enterprise level analytics platform or infrastructure design.
+- 🤔 I’m mostly freelancing on cloud applications with multiple ETL and ELT projects.
 - 💬 Ask me about data engineering and web application.
 - 📫 How to reach me: rahul.kr20@live.com
 - 😄 Pronouns: He/Him
