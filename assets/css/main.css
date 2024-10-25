@@ -4561,7 +4561,7 @@ input, select, textarea {
 		-webkit-transition: -webkit-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
-		display: none;
+		display: inside;
 		-webkit-overflow-scrolling: touch;
 		background: #ffffff;
 		box-shadow: none;
@@ -4573,7 +4573,7 @@ input, select, textarea {
 		position: fixed;
 		right: 0;
 		top: 0;
-		visibility: hidden;
+		visibility: visible;
 		width: 20rem;
 		z-index: 10002;
 	}
