@@ -2692,7 +2692,7 @@ input, select, textarea {
 
 		ul.actions li {
 			padding: 0 0 0 1rem;
-			vertical-align: middle;
+			vertical-align: top;
 		}
 
 		ul.actions.special {
@@ -2917,7 +2917,7 @@ input, select, textarea {
 			font-size: 0.8rem;
 			height: 1;
 			margin: 0 0 1rem 0;
-			position: relative;
+			position: absolute;
 		}
 
 		header > p {
@@ -2966,11 +2966,9 @@ input, select, textarea {
 
 				header.major > .date:before, header.major > .date:after {
 					content: '';
-					display: block;
+					display: inline;
 					position: absolute;
-					top: 50%;
-					width: calc(50% - 6rem);
-					border-top: solid 2px;
+					
 				}
 
 				header.major > .date:before {
@@ -2984,7 +2982,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			header br {
-				display: none;
+				display: flex;
 			}
 
 		}
@@ -3611,7 +3609,7 @@ input, select, textarea {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
+		display: inline-flexbox;
 		-moz-transition: -moz-transform 1s ease, opacity 1s ease;
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
@@ -4492,7 +4490,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-		display: none;
+		display: inline-flex;
 		position: fixed;
 		top: 0.75rem;
 		right: 0.75rem;
@@ -4510,7 +4508,7 @@ input, select, textarea {
 		#navPanelToggle:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			display: inline-block;
+			display: block;
 			font-style: normal;
 			font-variant: normal;
 			text-rendering: auto;
@@ -4538,7 +4536,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#navPanelToggle {
-				display: block;
+				display: flex;
 			}
 
 		}
@@ -4561,7 +4559,7 @@ input, select, textarea {
 		-webkit-transition: -webkit-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
-		display: inside;
+		display: flex;
 		-webkit-overflow-scrolling: touch;
 		background: #ffffff;
 		box-shadow: none;
@@ -4570,7 +4568,7 @@ input, select, textarea {
 		max-width: 80%;
 		overflow-y: auto;
 		padding: 3rem 2rem;
-		position: fixed;
+		position: relative;
 		right: 0;
 		top: 0;
 		visibility: visible;
@@ -4589,7 +4587,7 @@ input, select, textarea {
 
 				#navPanel .links li a {
 					border-bottom: 0;
-					display: block;
+					display: flex;
 					font-family: "Source Sans Pro", Helvetica, sans-serif;
 					font-size: 0.9rem;
 					font-size: 0.9rem;

@@ -10,9 +10,9 @@
 		$body = $('body'),
 		$wrapper = $('#wrapper'),
 		$header = $('#header'),
-		$nav = $('#nav'),
+		// $nav = $('#nav'),
 		$main = $('#main'),
-		$navPanelToggle, $navPanel, $navPanelInner;
+		$navPanelToggle, $navPanel;
 
 	// Breakpoints.
 		breakpoints({
@@ -163,9 +163,9 @@
 				});
 
 			// Get inner.
-				$navPanelInner = $navPanel.children('nav');
+				//$navPanelInner = $navPanel.children('nav');
 
-			// Move nav content on breakpoint change.
+			/* Move nav content on breakpoint change.
 				var $navContent = $nav.children();
 
 				breakpoints.on('>medium', function() {
@@ -194,7 +194,7 @@
 				if (browser.os == 'wp'
 				&&	browser.osVersion < 10)
 					$navPanel
-						.css('transition', 'none');
+						.css('transition', 'none'); */
 
 	// Intro.
 		var $intro = $('#intro');
