@@ -2604,7 +2604,7 @@ input, select, textarea {
 		}
 
 			.image.left img, .image.right img {
-				width: 100%;
+				width: 80%;
 			}
 
 		.image.left {
@@ -4618,8 +4618,7 @@ input, select, textarea {
 			position: absolute;
 			right: 0;
 			text-align: right;
-			top: 0;
-			vertical-align: middle;
+			top: 0;			
 			width: 7rem;
 		}
 
