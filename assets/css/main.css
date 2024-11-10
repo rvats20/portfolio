@@ -1,11 +1,10 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
-@import url("https://img.shields.io/badge/linkedin-%2300acee.svg?color");
 
 /*
-	Portfolio by RAHUL VATS
-	github.com/rvats20 | @rvats20
-	All rights reserved under license (*******)
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
 html, body, div, span, applet, object,
@@ -22,7 +21,7 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 80%;
+	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
 
@@ -123,7 +122,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			html {
-				font-size: 11pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -131,7 +130,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			html {
-				font-size: 10pt;
+				font-size: 11pt;
 			}
 
 		}
@@ -139,7 +138,7 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			html {
-				font-size: 19pt;
+				font-size: 10pt;
 			}
 
 		}
@@ -169,7 +168,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		font-weight: 400;
+		font-weight: 600;
 	}
 
 	em, i {
@@ -177,16 +176,16 @@ input, select, textarea {
 	}
 
 	p {
-		text-align: center;
+		text-align: justify;
 		margin: 0 0 2rem 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-		font-weight: 400;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-weight: 700;
 		line-height: 1.5;
-		letter-spacing: 0.075em;
-		 text-transform: none;
+		letter-spacing: 0.055em;
+		text-transform: uppercase;
 		margin: 0 0 1rem 0;
 	}
 
@@ -203,8 +202,8 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 1.45rem;
-		line-height: 1.1;
+		font-size: 1.75rem;
+		line-height: 1.3;
 		margin: 0 0 1.5rem 0;
 	}
 
@@ -2604,7 +2603,7 @@ input, select, textarea {
 		}
 
 			.image.left img, .image.right img {
-				width: 80%;
+				width: 100%;
 			}
 
 		.image.left {
@@ -2636,7 +2635,7 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			margin: 4rem 0;
-			width: 100%;
+			width: 80%;
 		}
 
 			.image.main:first-child {
@@ -2644,7 +2643,7 @@ input, select, textarea {
 			}
 
 			.image.main img {
-				width: 100%;
+				width: 80%;
 			}
 
 		@media screen and (max-width: 736px) {
@@ -2692,7 +2691,7 @@ input, select, textarea {
 
 		ul.actions li {
 			padding: 0 0 0 1rem;
-			vertical-align: top;
+			vertical-align: middle;
 		}
 
 		ul.actions.special {
@@ -2917,7 +2916,7 @@ input, select, textarea {
 			font-size: 0.8rem;
 			height: 1;
 			margin: 0 0 1rem 0;
-			position: absolute;
+			position: relative;
 		}
 
 		header > p {
@@ -2966,9 +2965,11 @@ input, select, textarea {
 
 				header.major > .date:before, header.major > .date:after {
 					content: '';
-					display: inline;
+					display: block;
 					position: absolute;
-					
+					top: 50%;
+					width: calc(50% - 6rem);
+					border-top: solid 2px;
 				}
 
 				header.major > .date:before {
@@ -2982,7 +2983,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			header br {
-				display: flex;
+				display: none;
 			}
 
 		}
@@ -3609,7 +3610,7 @@ input, select, textarea {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: inline-flexbox;
+		display: flex;
 		-moz-transition: -moz-transform 1s ease, opacity 1s ease;
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
@@ -4490,7 +4491,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-		display: inline-flex;
+		display: none;
 		position: fixed;
 		top: 0.75rem;
 		right: 0.75rem;
@@ -4508,7 +4509,7 @@ input, select, textarea {
 		#navPanelToggle:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			display: block;
+			display: inline-block;
 			font-style: normal;
 			font-variant: normal;
 			text-rendering: auto;
@@ -4536,7 +4537,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#navPanelToggle {
-				display: flex;
+				display: block;
 			}
 
 		}
@@ -4559,7 +4560,7 @@ input, select, textarea {
 		-webkit-transition: -webkit-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
-		display: flex;
+		display: none;
 		-webkit-overflow-scrolling: touch;
 		background: #ffffff;
 		box-shadow: none;
@@ -4568,10 +4569,10 @@ input, select, textarea {
 		max-width: 80%;
 		overflow-y: auto;
 		padding: 3rem 2rem;
-		position: relative;
+		position: fixed;
 		right: 0;
 		top: 0;
-		visibility: visible;
+		visibility: hidden;
 		width: 20rem;
 		z-index: 10002;
 	}
@@ -4587,7 +4588,7 @@ input, select, textarea {
 
 				#navPanel .links li a {
 					border-bottom: 0;
-					display: flex;
+					display: block;
 					font-family: "Source Sans Pro", Helvetica, sans-serif;
 					font-size: 0.9rem;
 					font-size: 0.9rem;
@@ -4619,6 +4620,8 @@ input, select, textarea {
 			right: 0;
         brancht
 			text-align: right;
+			top: 0;
+			vertical-align: middle;
 			top: 0;			
 
 			text-align: auto;

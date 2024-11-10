@@ -163,7 +163,7 @@
 				});
 
 			// Get inner.
-				//$navPanelInner = $navPanel.children('nav');
+			$navPanelInner = $navPanel.children('nav');
 
 			/* Move nav content on breakpoint change.
 				var $navContent = $nav.children();
