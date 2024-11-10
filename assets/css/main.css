@@ -3761,10 +3761,10 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1224px) {
 
 			#nav {
-				display: none;
+				display: block;
 			}
 
 		}
@@ -3897,7 +3897,7 @@ input, select, textarea {
 					border-top-width: 0;
 				}
 
-			@media screen and (max-width: 980px) {
+			@media screen and (max-width: 1224px) {
 
 				#main > .posts > * {
 					width: 50%;
@@ -4550,7 +4550,7 @@ input, select, textarea {
 				background-color: #ffffff;
 			}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1224px) {
 
 			#navPanelToggle {
 				display: block;
