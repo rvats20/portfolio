@@ -321,7 +321,23 @@ input, select, textarea {
 	hr {
 		border-bottom-color: #eeeeee;
 	}
-
+	.about__container {
+		row-gap: 2rem;
+		text-align: center;
+	}
+	
+	.about__subtitle {
+		margin-bottom: var(--mb-2)
+	}
+	
+	.about__img {
+		justify-self: center;
+	}
+	
+	.about__img img {
+		width: 200px;
+		border-radius: 0.5rem;
+	}
 /* Row */
 
 	.row {
