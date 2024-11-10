@@ -4618,9 +4618,16 @@ input, select, textarea {
 			padding-right: 1.25rem;
 			position: absolute;
 			right: 0;
+        brancht
 			text-align: right;
 			top: 0;
 			vertical-align: middle;
+			top: 0;			
+
+			text-align: auto;
+			top: 0;
+			vertical-align: middle;
+        master
 			width: 7rem;
 		}
 
